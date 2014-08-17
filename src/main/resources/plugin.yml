@@ -1,0 +1,12 @@
+name: Titanium
+main: uk.hobbyboy.Titanium
+version: $(version)
+
+commands:
+    titanium:
+        description: Main command of the plugin, displays information and help.
+        usage: "Usage: Do /titanium <command> for the different commands."
+permissions:
+    titanium.maincommand:
+        description: Acess to the main command
+        default: true
